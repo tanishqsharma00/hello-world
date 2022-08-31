@@ -19,7 +19,7 @@ pipeline {
                 stage ( ' deploy ’)
                       {
                         steps {
-                             sh ‘cp -ivr /opt/tomcat/.jenkins/workspace/project_java_16/target/udit.war  /opt/tomcat/webapps’
+                              sh 'cp -ivr /opt/tomcat/.jenkins/workspace/project_java_16/target/java-tomcat-maven-example.war  /opt/tomcat/webapps'
                              }
                       }
           }
